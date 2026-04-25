@@ -68,17 +68,17 @@ const Study00 = () => {
             // else
             //  alert("조건에 맞지 않는 숫자가 있습니다.");
 
-            let session = prompt("관심 세션을 선택해 주세요. 1-마케팅, 2-개발, 3-디자인");
+            //let session = prompt("관심 세션을 선택해 주세요. 1-마케팅, 2-개발, 3-디자인");
 
-            switch (session) {
-                case "1": document.write("<P>마케팅 세션은 <strong>201호</strong>에서 ......</p>")
-                    break;
-                case "2": document.write("<P>개발 세션은 <strong>203호</strong>에서 ......</p>")
-                    break;
-                case "3": document.write("<P>디자인 세션은 <strong>205호</strong>에서 ......</p>")
-                    break;
-                default: alert("잘못 입력했습니다.");
-            }
+            //switch (session) {
+            //    case "1": document.write("<P>마케팅 세션은 <strong>201호</strong>에서 ......</p>")
+            //        break;
+            //    case "2": document.write("<P>개발 세션은 <strong>203호</strong>에서 ......</p>")
+            //        break;
+            //    case "3": document.write("<P>디자인 세션은 <strong>205호</strong>에서 ......</p>")
+            //        break;
+            //    default: alert("잘못 입력했습니다.");
+            //}
         }
     }, []);
 
