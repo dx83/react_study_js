@@ -5,6 +5,7 @@ import Home from './components/Home';
 import Study00 from './components/Study00';
 import Study01 from './components/Study01';
 import Study02 from './components/Study02';
+import Study03 from './components/Study03';
 
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
         <Route path="/study00" element={<Study00 />} />
         <Route path="/study01" element={<Study01 />} />
         <Route path="/study02" element={<Study02 />} />
+        <Route path="/study03" element={<Study03 />} />
 
       </Routes>
 

@@ -5,9 +5,6 @@ import "./timestable.css"
 const Study01 = () => {
 
     const navigate = useNavigate();
-    const toHome = () => {
-        navigate("/");
-    };
 
     useEffect(() => {
         //let memNum = parseInt(prompt("입장객은 몇 명인가요?"));
@@ -110,7 +107,7 @@ const Study01 = () => {
     return (
         <div>
             <h1>Study01</h1>
-            <button onClick={toHome}>Home</button>
+            <button onClick={() => navigate("/")}>Home</button>
             <br />
         </div>
     );

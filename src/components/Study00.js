@@ -4,9 +4,6 @@ import { useNavigate } from 'react-router-dom';
 const Study00 = () => {
 
     const navigate = useNavigate();
-    const toHome = () => {
-        navigate("/");
-    }
 
     useEffect(() => {
         let heading = document.querySelector('#heading');
@@ -85,7 +82,7 @@ const Study00 = () => {
     return (
         <div>
             <h1>Study00</h1>
-            <button onClick={toHome}>Home</button>
+            <button onClick={() => navigate("/")}>Home</button>
             <br />
             
             <h1 id="heading">자바스크립트</h1>
