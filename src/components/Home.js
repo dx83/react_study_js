@@ -12,6 +12,7 @@ const Home = () => {
             <button style={{ marginLeft: '20px' }} onClick={() => navigate("/study01")}>Study01</button>
             <button style={{ marginLeft: '20px' }} onClick={() => navigate("/study02")}>Study02</button>
             <button style={{ marginLeft: '20px' }} onClick={() => navigate("/study03")}>Study03</button>
+            <button style={{ marginLeft: '20px' }} onClick={() => navigate("/study04")}>Study04</button>
         </div>
     );
 };
