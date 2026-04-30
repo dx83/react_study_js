@@ -6,9 +6,9 @@ const Main = () => {
 
     return (
         <div>
-            <h1>Main</h1>
-            <p id="text">현재 시각은 {display}</p>
-            
+            <h3>Main</h3>
+            <h1>현재 시각은 {display}</h1>
+            <hr />
         </div>
     );
 };

@@ -8,11 +8,14 @@ const Home = () => {
     return (
         <div>
             <h1>HOME</h1>
-            <button style={{ marginLeft: '20px' }} onClick={() => navigate("/study00")}>Study00</button>
-            <button style={{ marginLeft: '20px' }} onClick={() => navigate("/study01")}>Study01</button>
-            <button style={{ marginLeft: '20px' }} onClick={() => navigate("/study02")}>Study02</button>
-            <button style={{ marginLeft: '20px' }} onClick={() => navigate("/study03")}>Study03</button>
-            <button style={{ marginLeft: '20px' }} onClick={() => navigate("/study04")}>Study04</button>
+            <button style={{ marginLeft: '50px' }} onClick={() => navigate("/study00")}>Study00</button>
+            <button style={{ marginLeft: '50px' }} onClick={() => navigate("/study01")}>Study01</button>
+            <button style={{ marginLeft: '50px' }} onClick={() => navigate("/study02")}>Study02</button>
+            <button style={{ marginLeft: '50px' }} onClick={() => navigate("/study03")}>Study03</button>
+            <button style={{ marginLeft: '50px' }} onClick={() => navigate("/study04")}>Study04</button>
+            <br /><br />
+
+            <button style={{ marginLeft: '50px' }} onClick={() => navigate("/react00")}>React00</button>
         </div>
     );
 };

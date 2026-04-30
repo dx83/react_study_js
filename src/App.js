@@ -7,6 +7,7 @@ import Study01 from './components/Study01';
 import Study02 from './components/Study02';
 import Study03 from './components/Study03';
 import Study04 from './components/Study04';
+import React00 from './components/React00';
 
 
 const App = () => {
@@ -23,7 +24,7 @@ const App = () => {
         <Route path="/study02" element={<Study02 />} />
         <Route path="/study03" element={<Study03 />} />
         <Route path="/study04" element={<Study04 />} />
-
+        <Route path="/react00" element={<React00 />} />
       </Routes>
 
     </div>
